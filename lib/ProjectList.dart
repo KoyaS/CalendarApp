@@ -12,20 +12,20 @@ class _ProjectListState extends State<ProjectList> {
     {
       'projectTitle': 'Project 1',
       'taskList': [
-        {'name': '1', 'completed': false},
-        {'name': '2', 'completed': false},
+        {'name': 'Find group members', 'completed': true},
+        {'name': 'Assign jobs to everyone', 'completed': false},
         {
-          'name': '1234567891112131415161718192021222324252627282930',
+          'name': 'Create report',
           'completed': false
         },
       ]
     },
     {
-      'projectTitle': 'Project 2',
+      'projectTitle': 'Prepare for winter',
       'taskList': [
-        {'name': '1', 'completed': false},
-        {'name': '2', 'completed': false},
-        {'name': '3', 'completed': false},
+        {'name': 'Buy snow boots', 'completed': false},
+        {'name': 'Search for sledding hills', 'completed': true},
+        {'name': 'Buy snowman materials', 'completed': false},
       ]
     },
     {
